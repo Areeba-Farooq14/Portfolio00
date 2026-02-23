@@ -1,0 +1,279 @@
+@media (max-width:800px){
+    .menu{
+        display: block;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links.show{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 90px;
+        text-align: center;
+        width: 100%;
+        background-color: #03002ec8;
+    padding-block: 10px;
+        left: 0px;
+        z-index: 999;
+    }
+}
+@media (max-width:1000px){
+    .heroimg{
+        width: 30%;
+    }.hero-sec{
+        width: 100%;
+        justify-content: center;
+        gap: 5px;
+        padding-inline: 20px;
+        font-size: 15px;
+        
+       
+    }.aboutimg{
+        width: 1600px;
+
+    }.aboutsec{
+        gap: 50px;
+    }
+    .about-text{
+        font-size: 14px;
+     
+    }#skillimg{
+      font-size: 80px;
+    }.skills{
+        gap: 20px;
+       
+        
+    }.skill-item{
+        padding: 15px;
+   
+    }
+}
+@media(max-width:800px){
+    .heroimg{
+        width:40% ;
+    }.hero-sec{
+        width: 100%;
+        padding-inline: 60px;
+        
+ 
+}.about-text{
+    font-size: 15px;
+}.abouth{
+    font-size: 60px;
+}
+.aboutsec{
+    padding-block: 60px;
+}#skillimg{
+    font-size: 50px;
+    position: relative;
+    left: 25px;
+}.skill-item{
+padding-inline: 10px;
+padding-block: 20px;
+
+}.skillh{
+    font-size: 60px;
+}
+.skills-sec{
+    padding: 60px;
+}.porth{
+    font-size: 60px;
+}
+.port-sec{
+height: 60vh;
+padding-block: 100px;
+}.project-img img{
+    width: 60%;
+}.contacth{
+    font-size: 60px;
+}
+}
+@media (max-width:670px){
+    .aboutsec{
+        flex-direction: column;
+        gap: 5px;
+    }.abouth{
+        font-size: 35px;
+    }
+    #skillimg{
+        left: 10px;
+    }.skills{
+        gap: 30px;
+    
+    
+    }.skill-item{
+        padding: 20px;
+    }
+    .sech{
+        font-size: 15px;
+    }.secp{
+        font-size: 12px;
+    }.inp{
+        width: 400px;
+    }.scroll-top{
+        width:30px ;
+        height: 30px;
+        font-size: 20px;
+    }
+
+}@media (max-width:590px){
+    .logo{
+        font-size: 25px;
+    }
+    .heroimg{
+        width: 50%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .abouth{
+        font-size: 50px;
+    }.skillh{
+        font-size: 50px;
+    }.porth{
+        font-size: 50px;
+    }.contacth{
+        font-size: 50px;
+    }
+    #skillimg{
+        left: 2px;
+
+    }.skills-sec{
+        padding-inline: 60px;
+        height: 60vh;
+    }.skill-item{
+        padding: 10px;
+    }.project-img img{
+        width: 80%;
+    }.footertxt{
+        font-size: 14px;
+    }
+}
+@media (max-width:500px){
+    .logo{
+        font-size: 25px;
+    }
+    
+    .heroimg{
+        width: 60%;
+    }.herop{
+        font-size: 15px;
+    }
+    .abouth{
+        font-size: 40px;
+    }.aboutsec{
+        padding-block: 20px;
+        
+    }.about-text{
+        font-size:15px;
+    }.skillh{
+        font-size: 40px;
+    }.porth{
+        font-size: 40px;
+    }.contacth{
+        font-size: 40px;
+    }
+    #skillimg{
+        width: 10%;
+    }.sech{
+        font-size: 10px;
+    }.skill-item{
+        padding: 15px;
+    }.skills{
+        gap: 10px;
+    }
+    .skills-sec{
+        padding-inline: 50px;
+    }.secp{
+        font-size: 7px;
+    }.inp{
+        width: 340px;
+    }.footertxt{
+        font-size: 13px;
+    }.scroll-top{
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+}
+@media (max-width:450px){
+    .aboutsec{
+        height: 80vh;
+        gap: 5px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .herop{
+        font-size: 14px;
+    }.skills{
+        gap: 15px;
+    
+    }.skills-sec{
+        padding-inline: 70px;
+      
+    }
+    .inp{
+        width: 300px;
+    }  .scroll-top{
+        width: 25px;
+        height: 25px;
+        font-size: 9px;
+    }}
+
+@media(max-width:410px){
+    .logo{
+        font-size: 18px;
+    }
+    .heroimg{
+        width: 83%;
+        position: relative;
+        left: 10px;
+    }
+    h1{
+        font-size: 25px;
+    }.herop{
+        font-size: 15px;
+    }#skillimg{
+        width: 3%;
+    }.skills-sec{
+        width: 100%;
+        padding-inline:20px;
+        padding-block: 80px;
+    }.skill-item{
+        padding: 5px;
+    }.inp{
+        width: 270px;
+
+    }.footertxt{
+        font-size: 12px;
+    }
+}
+@media (max-width:360px){
+    .logo{
+        font-size: 15px;
+    }
+    .aboutsec{
+        padding-block: 230px;
+        
+    }h1{
+        position: relative;
+        left: 2px;
+        font-size: 18px;
+    }
+    
+    .about-text{
+        font-size: 10px;
+    }#skillimg{
+        width: 1%;
+    }
+    .heroimg{
+        width: 90%;
+    }.inp{
+        width: 250px;
+    }.footertxt{
+        font-size: 10px;
+    }
+}
